@@ -1,8 +1,10 @@
 const fs = require("fs");
 const axios = require("axios");
 
+//Define a function
 const getData = async () => {
   try {
+    //fetch the data
     const res = await axios.get("http://jsonplaceholder.typicode.com/posts");
 
     //Convert the data to a JSON object
@@ -15,4 +17,5 @@ const getData = async () => {
   }
 };
 
+//Function call
 getData();
