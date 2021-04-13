@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-file-system-task",
+  "version": "1.0.0",
+  "description": "This fetches data from an api and writes the data to a file ",
+  "main": "index.js",
+  "scripts": {
+    "test": "try catch"
+  },
+  "keywords": [
+    "axios"
+  ],
+  "author": "Oladele Tobiloba",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
